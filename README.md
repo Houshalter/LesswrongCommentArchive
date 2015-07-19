@@ -1,17 +1,16 @@
 # Lesswrong Comment Archive
-
-A simple tool to archive comments on the website Lesswrong.com
+##A simple tool to archive comments on the website Lesswrong.com
 
 This requires lua.
 
 It also requires cjson and socket. These can be obtained through luarocks:
 
-luarocks install cjson
-luarocks install socket
+	luarocks install cjson
+	luarocks install socket
 
 To use, open the commandline in the folder and type
 
-lua scrape.lua username
+	lua scrape.lua username
 
 The script saves a JSON file containing all the comments scraped.
 
