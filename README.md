@@ -1,5 +1,5 @@
 # Lesswrong Comment Archive
-##A simple tool to archive comments on the website Lesswrong.com
+#####A simple tool to archive comments on the website Lesswrong.com
 
 This requires lua.
 
