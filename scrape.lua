@@ -41,7 +41,7 @@ end
 
 function proccess(comments, user)
 	local pcomments = {}
-	if (comments.data.author == user) then
+	if (comments.data.author and (comments.data.author:lower() == user:lower())) then
 		table.insert(pcomments, comments)
 	end
 	if comments.data.replies == cjson.null then comments.data.replies = nil end
